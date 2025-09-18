@@ -1,0 +1,14 @@
+i <- 6
+t <- 7
+
+op <- readline("Enter operation (add, subtract, multiply, divide): ")
+
+result <- switch(op,
+                 "add" = i + t,
+                 "subtract" = i - t,
+                 "multiply" = i * t,
+                 "divide" = i / t,
+                 "Invalid operation"
+)
+
+cat("Result:", result, "\n")
