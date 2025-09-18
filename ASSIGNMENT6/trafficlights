@@ -1,0 +1,10 @@
+light <- "yellow"
+
+result <- switch(light,
+                 "red" = "STOP",
+                 "yellow" = "READY",
+                 "green" = "GO",
+                 "invalid signal"
+)
+
+print(result)
