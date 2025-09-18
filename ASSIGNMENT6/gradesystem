@@ -1,0 +1,10 @@
+grade <- "A"
+
+result <- switch(grade,
+                 "A"="Excellent",
+                 "B"="Good job!",
+                 "C"="good",
+                 "D"="need to improve",
+                 "F"="You failed"
+                 )
+print(result)
