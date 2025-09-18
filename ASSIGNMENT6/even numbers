@@ -1,0 +1,6 @@
+v = c(2, 4, 5, 8)
+if(all(v %% 2 == 0 )){
+  print("EVEN")
+}else if(any(v %% 2 ==0  )){
+  print("One number is even")
+}
